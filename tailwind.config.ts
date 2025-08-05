@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				brand: {
+					DEFAULT: 'hsl(var(--brand-primary))',
+					secondary: 'hsl(var(--brand-secondary))',
+					success: 'hsl(var(--brand-success))',
+					warning: 'hsl(var(--brand-warning))'
+				},
+				travel: {
+					sky: 'hsl(var(--travel-sky))',
+					ocean: 'hsl(var(--travel-ocean))',
+					sunset: 'hsl(var(--travel-sunset))',
+					forest: 'hsl(var(--travel-forest))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +79,19 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'brand-gradient': 'var(--brand-gradient)',
+				'brand-gradient-subtle': 'var(--brand-gradient-subtle)'
+			},
+			boxShadow: {
+				'brand': 'var(--shadow-brand)',
+				'soft': 'var(--shadow-soft)',
+				'glow': 'var(--shadow-glow)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			keyframes: {
 				'accordion-down': {
