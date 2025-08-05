@@ -6,10 +6,10 @@ const WhyFleetwiseSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Why Choose Fleetwise?
+            Why Southeast Asian Agencies Choose Fleetwise
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Transform your travel business with the power of intelligent fleet management
+            We understand the unique challenges of running a travel business in this region - from monsoon disruptions to competitive pricing pressures
           </p>
         </div>
         
@@ -19,10 +19,11 @@ const WhyFleetwiseSection = () => {
               <TrendingUp className="h-10 w-10 text-white" />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-foreground">
-              Reduce Admin Stress
+              Stop Losing Money Daily
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Automate repetitive tasks, streamline operations, and free up your time to focus on growing your business and serving customers better.
+              Every manual booking, missed trip, or fuel overspend costs you profit. Automate operations, reduce waste, 
+              and focus on what matters - growing your customer base and expanding routes.
             </p>
           </div>
           
@@ -31,10 +32,11 @@ const WhyFleetwiseSection = () => {
               <Eye className="h-10 w-10 text-white" />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-foreground">
-              Improve Visibility
+              Beat the Competition
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Get real-time insights into your fleet performance, driver productivity, and customer satisfaction with comprehensive dashboards and reports.
+              While competitors struggle with manual systems, you'll offer instant booking confirmations, 
+              real-time updates, and professional service that wins customers and justifies premium pricing.
             </p>
           </div>
           
@@ -43,10 +45,11 @@ const WhyFleetwiseSection = () => {
               <DollarSign className="h-10 w-10 text-white" />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-foreground">
-              Boost Revenue
+              Scale Across Southeast Asia
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Optimize routes, reduce fuel costs, improve customer experience, and identify new revenue opportunities to maximize your profitability.
+              Built for the region's unique challenges - multiple currencies, cross-border operations, 
+              local regulations, and the diverse needs of tourist routes across ASEAN countries.
             </p>
           </div>
         </div>
@@ -54,10 +57,11 @@ const WhyFleetwiseSection = () => {
         <div className="mt-16 text-center">
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-soft max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 text-foreground">
-              Join the Fleet Management Revolution
+              "Finally, Software That Understands Our Business"
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Don't let outdated systems hold your travel business back. Fleetwise is designed specifically for the unique challenges of Singapore's travel industry, with features that matter most to local operators.
+              Built by people who understand Southeast Asian travel operations - from Singapore's urban tours 
+              to Thailand's island hopping, Malaysia's city-to-city routes, and Indonesia's diverse transportation needs.
             </p>
           </div>
         </div>

@@ -8,11 +8,11 @@ const TrustSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
-              Scales with Your Business Journey
+              From Struggling Small Agency to Regional Success Story
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Whether you run a cozy local agency or a fast-growing travel network, 
-              Fleetwise adapts to your needs and grows alongside your business.
+              Whether you're running a 3-van operation in Singapore or managing 50+ vehicles across Malaysia and Thailand, 
+              Fleetwise adapts to Southeast Asian travel business needs.
             </p>
             
             <div className="space-y-6">
@@ -21,8 +21,8 @@ const TrustSection = () => {
                   <Building2 className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">For Small Agencies</h3>
-                  <p className="text-muted-foreground">Start with essential features and scale up as you grow</p>
+                  <h3 className="font-semibold text-lg mb-2">Small Agencies (1-10 vehicles)</h3>
+                  <p className="text-muted-foreground">Start professional, eliminate WhatsApp chaos, impress customers</p>
                 </div>
               </div>
               
@@ -31,8 +31,8 @@ const TrustSection = () => {
                   <Zap className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">For Growing Networks</h3>
-                  <p className="text-muted-foreground">Advanced features and multi-location support</p>
+                  <h3 className="font-semibold text-lg mb-2">Growing Agencies (10-50 vehicles)</h3>
+                  <p className="text-muted-foreground">Multi-location support, advanced reporting, compete with the big players</p>
                 </div>
               </div>
               
@@ -41,8 +41,8 @@ const TrustSection = () => {
                   <Shield className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Enterprise Ready</h3>
-                  <p className="text-muted-foreground">Bank-grade security and 99.9% uptime guarantee</p>
+                  <h3 className="font-semibold text-lg mb-2">Large Operations (50+ vehicles)</h3>
+                  <p className="text-muted-foreground">Enterprise features, regional management, white-label options</p>
                 </div>
               </div>
             </div>

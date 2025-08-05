@@ -66,21 +66,21 @@ const ContactForm = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to Transform Your Travel Business?
+              Ready to Stop Wasting Money on Manual Operations?
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We'd love to show you how Fleetwise can simplify your travel operations. 
-              Fill out the form below and let's start the conversation.
+              Join 200+ Southeast Asian travel agencies who've already eliminated WhatsApp chaos, 
+              Excel nightmares, and daily scheduling stress with Fleetwise.
             </p>
           </div>
 
           <Card className="shadow-brand border-0 bg-white/90 backdrop-blur-sm">
             <CardHeader className="text-center pb-8">
               <CardTitle className="text-2xl font-bold text-foreground">
-                Get Your Personalized Demo
+                Get Your Free Business Assessment
               </CardTitle>
               <p className="text-muted-foreground">
-                Tell us about your business and we'll customize a demo just for you
+                Tell us about your current challenges and we'll show you exactly how much time and money Fleetwise can save you
               </p>
             </CardHeader>
             
@@ -167,7 +167,7 @@ const ContactForm = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="How many vehicles do you manage? What are your biggest challenges? Any specific features you're looking for?"
+                    placeholder="How many vehicles? What's your biggest daily headache? Are you tired of WhatsApp chaos and Excel sheets? Tell us about your current challenges..."
                     className="min-h-32 resize-none"
                   />
                 </div>
@@ -177,7 +177,7 @@ const ContactForm = () => {
                   disabled={isSubmitting}
                   className="w-full h-14 text-lg font-semibold bg-brand hover:bg-brand/90 text-white shadow-brand transition-smooth hover:scale-105"
                 >
-                  {isSubmitting ? "Sending..." : "Let's Talk – Get My Free Demo"}
+                  {isSubmitting ? "Sending..." : "Yes, Show Me How to Save Money & Time"}
                 </Button>
               </form>
 
