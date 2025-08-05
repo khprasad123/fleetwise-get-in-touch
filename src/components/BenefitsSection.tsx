@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const benefits = [
   {
     icon: MapPin,
-    title: "Real-time Fleet Tracking",
-    description: "Know exactly where every vehicle is, eliminate 'Where are you?' calls, and provide customers with accurate pickup times."
+    title: "Live Driver Tracking & Monitoring",
+    description: "Track every driver in real-time with our mobile app. See exact locations, route progress, and arrival times on your live dashboard."
   },
   {
     icon: Clock,
@@ -14,23 +14,23 @@ const benefits = [
   },
   {
     icon: DollarSign,
-    title: "Profit & Loss Visibility",
-    description: "See daily revenue, fuel costs, and driver performance at a glance. Make data-driven decisions instead of guessing."
+    title: "Real-time Performance Dashboard",
+    description: "Monitor company revenue, fleet efficiency, and driver performance with live statistics and instant financial insights."
   },
   {
     icon: Smartphone,
-    title: "Driver Mobile App",
-    description: "Drivers get trip notifications, can update status, and communicate with customers - no more missed calls or confusion."
+    title: "Driver Mobile App Integration",
+    description: "Drivers use our dedicated app to update status, navigate routes, and communicate - giving you complete visibility and control."
   },
   {
     icon: Users,
-    title: "Customer Communication",
-    description: "Automated booking confirmations, pickup reminders, and trip updates keep customers happy and reduce complaints."
+    title: "Fleet Statistics & Analytics",
+    description: "View comprehensive fleet stats: fuel consumption, trip completion rates, customer ratings, and driver productivity metrics."
   },
   {
     icon: BarChart3,
-    title: "Southeast Asia Focused",
-    description: "Built specifically for the unique challenges of travel agencies in Singapore, Malaysia, Thailand, and Indonesia."
+    title: "Company Performance Insights",
+    description: "Real-time dashboards showing daily revenue, operational efficiency, peak hours analysis, and growth opportunities across Southeast Asia."
   }
 ];
 
@@ -40,10 +40,11 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Here's How Fleetwise Solves Your Daily Headaches
+            Track Every Driver, Monitor Every Trip, See Every Dollar
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Stop fighting with WhatsApp groups and Excel sheets. Get professional tools that actually work for Southeast Asian travel agencies.
+            Stop fighting with WhatsApp groups and Excel sheets. Get professional tools with real-time tracking, 
+            live dashboards, and instant performance insights.
           </p>
         </div>
         
