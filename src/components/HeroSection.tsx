@@ -23,15 +23,15 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
           <MapPin className="h-5 w-5 text-brand" />
-          <span className="text-sm font-medium text-muted-foreground">Solving Fleet Challenges Across Southeast Asia</span>
+          <span className="text-sm font-medium text-muted-foreground">Enterprise Fleet Management for Growing Businesses</span>
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-brand-gradient leading-tight">
-          Stop Losing Money on Manual Fleet Operations
+          Scale Your Fleet Operations Like an Enterprise
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-          Finally, a solution built for Southeast Asian travel agencies tired of juggling WhatsApp groups, Excel sheets, and missed opportunities
+          Professional fleet management platform designed for growing travel businesses who demand enterprise-grade efficiency and control
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -55,7 +55,7 @@ const HeroSection = () => {
         </div>
         
         <div className="mt-12 text-sm text-muted-foreground">
-          Trusted by 200+ travel agencies across Singapore, Malaysia, Thailand & Indonesia
+          Trusted by 200+ enterprise travel companies across Singapore, Malaysia, Thailand & Indonesia
         </div>
       </div>
       
