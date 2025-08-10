@@ -1,4 +1,4 @@
-import { MapPin, Mail, Phone } from "lucide-react";
+import { MapPin, Mail, Phone, Truck } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -6,7 +6,15 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-brand-secondary">GoFleetNow</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-brand-gradient rounded-lg flex items-center justify-center shadow-brand">
+                <Truck className="h-5 w-5 text-white" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-brand-secondary">GoFleetNow</h3>
+                <span className="text-xs text-background/60">Fleet Management Solutions</span>
+              </div>
+            </div>
             <p className="text-background/80 leading-relaxed mb-4">
               The all-in-one fleet management solution designed specifically for Singapore's travel industry.
             </p>

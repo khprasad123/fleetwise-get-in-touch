@@ -20,10 +20,14 @@ const HeroSection = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 text-center">
-        <div className="flex items-center justify-center gap-2 mb-6">
-          <MapPin className="h-5 w-5 text-brand" />
-          <span className="text-sm font-medium text-muted-foreground">Enterprise Fleet Management for Growing Businesses</span>
+      <div className="relative z-10 container mx-auto px-6 text-center pt-20">
+        {/* Brand Badge */}
+        <div className="inline-flex items-center gap-3 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full border border-brand/20 mb-8 shadow-soft">
+          <div className="w-8 h-8 bg-brand-gradient rounded-lg flex items-center justify-center">
+            <MapPin className="h-4 w-4 text-white" />
+          </div>
+          <span className="text-lg font-bold bg-clip-text text-transparent bg-brand-gradient">GoFleetNow</span>
+          <span className="text-sm font-medium text-muted-foreground">• Enterprise Fleet Management</span>
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-brand-gradient leading-tight">
@@ -33,6 +37,12 @@ const HeroSection = () => {
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
           Professional fleet management platform designed for growing travel businesses who demand enterprise-grade efficiency and control
         </p>
+        
+        {/* Powered by GoFleetNow badge */}
+        <div className="inline-flex items-center gap-2 bg-brand/10 backdrop-blur-sm px-4 py-2 rounded-full mb-8">
+          <span className="text-sm font-medium text-brand">Powered by</span>
+          <span className="text-sm font-bold text-brand">GoFleetNow Technology</span>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
