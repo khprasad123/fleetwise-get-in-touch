@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 212 95% 48%;
+    --primary: 280 100% 70%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 320 85% 60%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 197 91% 67%;
+    --accent: 45 100% 65%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -36,24 +36,24 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 212 95% 48%;
 
-    /* Fleetwise brand colors */
-    --brand-primary: 212 95% 48%;
-    --brand-secondary: 197 91% 67%;
-    --brand-success: 142 71% 45%;
-    --brand-warning: 38 92% 50%;
-    --brand-gradient: linear-gradient(135deg, hsl(212, 95%, 48%) 0%, hsl(197, 91%, 67%) 100%);
-    --brand-gradient-subtle: linear-gradient(135deg, hsl(212, 95%, 96%) 0%, hsl(197, 91%, 97%) 100%);
+    /* Fleetwise brand colors - Vibrant theme */
+    --brand-primary: 280 100% 70%;
+    --brand-secondary: 320 85% 60%;
+    --brand-success: 150 80% 55%;
+    --brand-warning: 45 100% 65%;
+    --brand-gradient: linear-gradient(135deg, hsl(280, 100%, 70%) 0%, hsl(320, 85%, 60%) 50%, hsl(45, 100%, 65%) 100%);
+    --brand-gradient-subtle: linear-gradient(135deg, hsl(280, 100%, 95%) 0%, hsl(320, 85%, 95%) 50%, hsl(45, 100%, 95%) 100%);
     
-    /* Travel-themed colors */
-    --travel-sky: 197 91% 67%;
-    --travel-ocean: 212 95% 48%;
-    --travel-sunset: 28 100% 74%;
-    --travel-forest: 142 71% 45%;
+    /* Travel-themed colors - Vibrant theme */
+    --travel-sky: 200 100% 65%;
+    --travel-ocean: 240 100% 70%;
+    --travel-sunset: 25 100% 70%;
+    --travel-forest: 150 80% 55%;
     
-    /* Elegant shadows */
-    --shadow-brand: 0 10px 40px -10px hsl(212, 95%, 48%, 0.3);
+    /* Vibrant shadows */
+    --shadow-brand: 0 10px 40px -10px hsl(280, 100%, 70%, 0.4);
     --shadow-soft: 0 4px 20px -4px hsl(222.2, 84%, 4.9%, 0.1);
-    --shadow-glow: 0 0 40px hsl(212, 95%, 48%, 0.15);
+    --shadow-glow: 0 0 40px hsl(280, 100%, 70%, 0.25);
     
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

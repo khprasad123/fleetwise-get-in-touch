@@ -25,39 +25,21 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    
+    const subject = `Fleetwise Inquiry from ${formData.name} - ${formData.company}`;
+    const body = `Name: ${formData.name}
+Company: ${formData.company}
+Email: ${formData.email}
+Phone: ${formData.phone}
 
-    try {
-      // In a real application, you would send this data to your backend
-      // For now, we'll simulate the form submission
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Here you would typically make an API call to send the email
-      console.log("Form data to be sent to hpk9961@gmail.com:", formData);
-      
-      toast({
-        title: "Thank you for your interest!",
-        description: "We'll get in touch with you within 24 hours to discuss how Fleetwise can transform your travel business.",
-      });
+Message:
+${formData.message}`;
 
-      setFormData({
-        name: "",
-        company: "",
-        email: "",
-        phone: "",
-        message: ""
-      });
-    } catch (error) {
-      toast({
-        title: "Something went wrong",
-        description: "Please try again or contact us directly at hpk9961@gmail.com",
-        variant: "destructive"
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    const mailtoLink = `mailto:support@myfluja.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    window.location.href = mailtoLink;
   };
 
   return (
