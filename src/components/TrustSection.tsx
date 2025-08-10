@@ -12,7 +12,7 @@ const TrustSection = () => {
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Whether you're running a 3-van operation in Singapore or managing 50+ vehicles across Malaysia and Thailand, 
-              Fleetwise adapts to Southeast Asian travel business needs.
+              GoFleetNow adapts to Southeast Asian travel business needs.
             </p>
             
             <div className="space-y-6">

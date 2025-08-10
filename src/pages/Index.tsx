@@ -3,7 +3,7 @@ import PainPointsSection from "@/components/PainPointsSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import DashboardFeaturesSection from "@/components/DashboardFeaturesSection";
 import TrustSection from "@/components/TrustSection";
-import WhyFleetwiseSection from "@/components/WhyFleetwiseSection";
+import WhyGoFleetNowSection from "@/components/WhyGoFleetNowSection";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
@@ -15,7 +15,7 @@ const Index = () => {
       <BenefitsSection />
       <DashboardFeaturesSection />
       <TrustSection />
-      <WhyFleetwiseSection />
+      <WhyGoFleetNowSection />
       <ContactForm />
       <Footer />
     </div>

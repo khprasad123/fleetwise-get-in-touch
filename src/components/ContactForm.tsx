@@ -28,7 +28,7 @@ const ContactForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const subject = `Fleetwise Inquiry from ${formData.name} - ${formData.company}`;
+    const subject = `GoFleetNow Inquiry from ${formData.name} - ${formData.company}`;
     const body = `Name: ${formData.name}
 Company: ${formData.company}
 Email: ${formData.email}
@@ -52,7 +52,7 @@ ${formData.message}`;
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Join 200+ Southeast Asian travel agencies who've already eliminated WhatsApp chaos, 
-              Excel nightmares, and daily scheduling stress with Fleetwise.
+              Excel nightmares, and daily scheduling stress with GoFleetNow.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ ${formData.message}`;
                 Get Your Free Business Assessment
               </CardTitle>
               <p className="text-muted-foreground">
-                Tell us about your current challenges and we'll show you exactly how much time and money Fleetwise can save you
+                Tell us about your current challenges and we'll show you exactly how much time and money GoFleetNow can save you
               </p>
             </CardHeader>
             
@@ -165,7 +165,7 @@ ${formData.message}`;
 
               <div className="mt-8 text-center text-sm text-muted-foreground">
                 <p>
-                  By submitting this form, you agree to receive communications from Fleetwise.
+                  By submitting this form, you agree to receive communications from GoFleetNow.
                   <br />
                   We respect your privacy and will never share your information.
                 </p>
